@@ -5,9 +5,13 @@
   <IconsBell />
 </template>
 
-<script setup>
+<script setup lang="ts">
 // const sayHello = () => console.log("Hello from profile");
 // sayHello();
+
+useHead({
+  title: "Profile page",
+});
 </script>
 
 <style scoped></style>

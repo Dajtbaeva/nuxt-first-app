@@ -1,6 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { resolve } from "path";
 export default defineNuxtConfig({
+  // app: {
+  //   head: {
+  //     title: "Nuxt course",
+  //     meta: [
+  //       {
+  //         name: "description",
+  //         content: "This is content from meta",
+  //       },
+  //     ],
+  //   },
+  // },
   devtools: { enabled: true },
   alias: {
     "@": resolve(__dirname, "/"),
@@ -14,5 +25,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  ssr: false,
+  // ssr: false,
 });
